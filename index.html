@@ -8,7 +8,6 @@
     <title>Adaptive web-design challenge two</title>
 </head>
 
-
 <body>
     <h1 id="title">Adaptive web-design challenge two</h1>
     <main>
@@ -17,60 +16,43 @@
         </div>
         <form id="survey-form">
             <div class="text-container form-group">
-                <label for="name" id="name-label">Enter your name
-                    <input type="text" id="name" required placeholder="Leeroy Jenkins">
-                </label>
+                <label for="name" id="name-label">Enter your name</label>
+                <input type="text" id="name" required placeholder="Leeroy Jenkins">
             </div>
             <div class="email-container form-group">
-                <label for="email" id="email-label">Enter your e-mail
-                    <input type="email" name="email" id="email" required placeholder="box@server.com">
-                </label>
+                <label for="email" id="email-label">Enter your e-mail</label>
+                <input type="email" name="email" id="email" required placeholder="box@server.com">
             </div>
             <div class="number-container form-group">
-                <label for="number" id="number-label">Enter a number from one to ten
-                    <input type="number" name="number" id="number" required min="0" max="10" placeholder="0">
-                </label>
+                <label for="number" id="number-label">Enter a number from one to ten</label>
+                <input type="number" name="number" id="number" required min="0" max="10" placeholder="0">
             </div>
             <div class="dropdown-container form-group">
-                <label for="dropdown" id="dropdown-label">Enter your favourite card game
-                    <select id="dropdown" name="dropdown">
-                        <option disabled value="Select an option" selected>Select an option</option>
-                        <option value="Hearthstone">Hearthstone</option>
-                        <option value="Faeria">Faeria</option>
-                        <option value="Artifact">Artifact</option>
-                    </select>
-                </label>
+                <label for="dropdown" id="dropdown-label">Enter your favourite card game</label>
+                <select id="dropdown" name="dropdown">
+                    <option disabled value="Select an option" selected>Select an option</option>
+                    <option value="Hearthstone">Hearthstone</option>
+                    <option value="Faeria">Faeria</option>
+                    <option value="Artifact">Artifact</option>
+                </select>
             </div>
             <div class="radio-container form-group">
                 <p>Choose your status</p>
-                <label for="f2p">
-                    <input type="radio" name="money-option" value="f2p" id="f2p">
-                    f2p
-                </label>
-                <label for="donator">
-                    <input type="radio" name="money-option" id="donator" value="donator">
-                    donator
-                </label>
+                <label for="f2p">f2p</label>
+                <input type="radio" name="money-option" value="f2p" id="f2p">
+                <label for="donator">donator</label>
+                <input type="radio" name="money-option" id="donator" value="donator">
             </div>
             <div class="radio-container form-group">
                 <p>Choose your preffered modes</p>
-                <label for="Standard">
-                    Standard
-                    <input type="checkbox" name="mode-option" value="Standard" id="Standard">
-                </label>
-                <label for="Casual">
-                    Casual
-                    <input type="checkbox" name="mode-option" value="Casual" id="Casual">
-                </label>
-                <label for="Arena">
-                    Arena
-                    <input type="checkbox" name="mode-option" value="Arena" id="Arena">
-                </label>
-                <label for="Battlegrounds">
-                    Battlegrounds
-                    <input type="checkbox" name="mode-option" value="Battlegrounds" id="Battlegrounds">
-                </label>
-
+                <label for="Standard">Standard</label>
+                <input type="checkbox" name="mode-option" value="Standard" id="Standard">
+                <label for="Casual">Casual</label>
+                <input type="checkbox" name="mode-option" value="Casual" id="Casual">
+                <label for="Arena">Arena</label>
+                <input type="checkbox" name="mode-option" value="Arena" id="Arena">
+                <label for="Battlegrounds">Battlegrounds</label>
+                <input type="checkbox" name="mode-option" value="Battlegrounds" id="Battlegrounds">
             </div>
             <textarea name="textarea" id="additional" cols="30" rows="10">That's all, folks!</textarea>
             <button id="submit">Submit2</button>
